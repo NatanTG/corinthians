@@ -95,7 +95,7 @@ nav ul {
     /* Centraliza horizontalmente */
 }
 
-.section2 .image-grid {
+.section2 .image-gallery {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -103,10 +103,10 @@ nav ul {
 
 }
 
-.section2 .image-grid img {
+.section2 .image-gallery img {
     max-width: 100%;
     height: auto;
-    margin: 10px;
+    margin: 4px;
 }
 
 
