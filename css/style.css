@@ -30,7 +30,7 @@ nav ul {
     width: 60px;
     height: 60px;
     margin: 0 40px;
-    /* Aumente o espaço entre os escudos */
+
 }
 
 .material-symbols-outlined {
@@ -50,40 +50,28 @@ nav ul {
 
 }
 
-/* Estilos da Seção 1 - Grid de Imagens */
 /* Estilos para a Seção 1 */
 .section1 {
     background-color: #f6f6f6;
     color: #333;
-
-
-
-
-    /* Centraliza horizontalmente */
 }
 
 .image-grid {
     display: flex;
     justify-content: space-between;
 
-
-
 }
 
 .image-grid img {
-    max-width: 100%;
+    width: 20%;
     height: auto;
-
-
 }
 
-/* Estilo para o logo menor */
 .image-grid div img {
-    max-width: 80%;
+    width: 100%;
     height: auto;
+    margin-top: 10px;
 }
-
-
 
 /* Estilos para a Seção 2 */
 .section2 {
@@ -95,7 +83,7 @@ nav ul {
     /* Centraliza horizontalmente */
 }
 
-.section2 .image-grid {
+.section2 .image-gallery {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -103,10 +91,10 @@ nav ul {
 
 }
 
-.section2 .image-grid img {
+.section2 .image-gallery img {
     max-width: 100%;
     height: auto;
-    margin: 10px;
+    margin: 4px;
 }
 
 
