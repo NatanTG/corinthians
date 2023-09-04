@@ -1,0 +1,120 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #f6f6f6;
+    padding: 1rem;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.escudos img {
+    width: 60px;
+    height: 60px;
+    margin: 0 40px;
+    /* Aumente o espaço entre os escudos */
+}
+
+.material-symbols-outlined {
+    text-decoration: none;
+    color: #f6f6f6;
+    font-size: 20px;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+.material-symbols-outlined:hover {
+    background-color: #f6f6f6;
+    color: #333;
+    border-radius: 30%;
+
+}
+
+/* Estilos da Seção 1 - Grid de Imagens */
+/* Estilos para a Seção 1 */
+.section1 {
+    background-color: #f6f6f6;
+    color: #333;
+
+
+
+
+    /* Centraliza horizontalmente */
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.image-grid img {
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+/* Estilo para o logo menor */
+.image-grid div img {
+    max-width: 80%;
+    height: auto;
+}
+
+
+
+/* Estilos para a Seção 2 */
+.section2 {
+    background-color: #333;
+    color: #f6f6f6;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
+}
+
+.section2 .image-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.section2 .image-grid img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+
+
+/* Estilos do Rodapé */
+footer {
+    background-color: #333;
+    color: #f6f6f6;
+    text-align: center;
+    padding: 10px;
+}
