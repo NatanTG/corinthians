@@ -50,6 +50,15 @@ nav ul {
 
 }
 
+.material-symbols-outlined.home-link {
+    background-color: #f6f6f6;
+    /* Cor de fundo quando o link Home está selecionado */
+    color: #333;
+    /* Cor do texto quando o link Home está selecionado */
+    border-radius: 30%;
+    /* Borda arredondada quando o link Home está selecionado */
+}
+
 /* Estilos para a Seção 1 */
 .section1 {
     background-color: #f6f6f6;
