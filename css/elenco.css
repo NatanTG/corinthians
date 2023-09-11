@@ -1,0 +1,25 @@
+.banner > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.banner > div>  h1 {
+    padding-top: 20px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.campo > img {
+    width: 90%;
+    height: auto;
+}
