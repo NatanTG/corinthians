@@ -3,9 +3,9 @@
     font-style: normal;
     font-weight: 400;
     src: url(/font/Material\ Symbols\ Outlined.woff2) format('woff2');
-  }
-  
-  .material-symbols-outlined {
+}
+
+.material-symbols-outlined {
     font-family: 'Material Symbols Outlined';
     font-weight: normal;
     font-style: normal;
@@ -19,7 +19,7 @@
     direction: ltr;
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
-  }
+}
 
 /* Reset de Estilos */
 * {
@@ -82,52 +82,7 @@ nav ul {
     /* Borda arredondada quando o link Home está selecionado */
 }
 
-/* Estilos para a Seção 1 */
-.section1 {
-    background-color: #f6f6f6;
-    color: #333;
-}
 
-.image-grid {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.image-grid img {
-    width: 20%;
-    height: auto;
-}
-
-.image-grid div img {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-}
-
-/* Estilos para a Seção 2 */
-.section2 {
-    background-color: #333;
-    color: #f6f6f6;
-    padding: 20px;
-    text-align: center;
-    margin: 0 auto;
-    /* Centraliza horizontalmente */
-}
-
-.section2 .image-gallery {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-
-}
-
-.section2 .image-gallery img {
-    max-width: 100%;
-    height: auto;
-    margin: 4px;
-}
 
 
 
@@ -170,21 +125,21 @@ hr {
     background-color: #333;
 }
 
-.titulos > div > img {
+.titulos>div>img {
     width: 100%;
     height: auto;
     margin-top: 10px;
 
 }
 
-.titulos{
+.titulos {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: space-between;
 }
 
-.titulos > div {
+.titulos>div {
     padding: 20px;
     max-width: 20%;
 }

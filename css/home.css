@@ -1,0 +1,46 @@
+/* Estilos para a Seção 1 */
+.section1 {
+    background-color: #f6f6f6;
+    color: #333;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.image-grid img {
+    width: 20%;
+    height: auto;
+}
+
+.image-grid div img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Estilos para a Seção 2 */
+.section2 {
+    background-color: #333;
+    color: #f6f6f6;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
+}
+
+.section2 .image-gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.section2 .image-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 4px;
+}
